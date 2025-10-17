@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS person (
+    id BIGINT PRIMARY KEY,
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    status BOOLEAN NOT NULL
+);
