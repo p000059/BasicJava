@@ -25,8 +25,7 @@ public class PersonController {
 	@GetMapping(value = "/getperson")
 	public List<Person> readPerson() {
 		
-		try {
-						
+		try {	
 			
 			return personServices.getAllPerson();			
 			
